@@ -1,5 +1,5 @@
 body {
-  background-color: #23252C;
+    background-color: #23252C;
 }
 
 .card {
@@ -11,8 +11,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-radius: 5%;
 
   color: white;
   font-family: Inter, sans-serif;
@@ -83,3 +82,20 @@ body {
   line-height: 20px;
 }
 
+.main {
+  background-color: #23252C;
+}
+
+.footer {
+  background-color: #161619;
+  padding: 19px 0 20px;
+  width: 100%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 70px;
+}
