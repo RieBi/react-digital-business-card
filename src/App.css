@@ -1,0 +1,64 @@
+body {
+  background-color: #23252C;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1A1B21;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.portrait {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5% 5% 0 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #F3BF99;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.button {
+  border-radius: 5px;
+  border-style: none;
+  width: 135px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.email-button {
+  background-color: white;
+  color: #374151;
+  margin-right: 2rem;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
+  color: white;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
