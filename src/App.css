@@ -37,6 +37,7 @@ body {
 }
 
 .button {
+  cursor: pointer;
   border-radius: 5px;
   border-style: none;
   width: 135px;

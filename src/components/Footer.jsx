@@ -7,10 +7,10 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="socials">
-                <img src={twitter} />
-                <img src={facebook} />
-                <img src={instagram} />
-                <img src={github} />
+                <a href="x.com"><img src={twitter} /></a>
+                <a href="facebook.com"><img src={facebook} /></a>
+                <a href="instagram.com"><img src={instagram} /></a>
+                <a href="github.com"><img src={github} /></a>
             </div>
         </div>
     )
