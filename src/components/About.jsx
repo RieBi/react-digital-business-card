@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="about">
+        <div className="section">
             <h3>About</h3>
             <p>
                 I am a frontend developer with a particular interest to cats.
